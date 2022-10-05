@@ -5,3 +5,4 @@ Video Thumbnail is from:
 “Video Thumbnails: Size &amp; How to Make Them.” Biteable, 1 June 2021, biteable.com/blog/video-thumbnails-matter/. 
 Header image is from:
 “Avatar People Person - Free Vector Graphic on Pixabay.” PixaBay, mohamed_hasan, 19 Aug. 2018, pixabay.com/vectors/avatar-people-person-business-user-3637561/. 
+Currently do not have a working microphone so for the video it is just a random downloaded clip I have.
