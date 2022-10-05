@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!--Style sheet link for full monitor size-->
+    <link href="Monitor.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+    <!--Tablet style sheet link for tablet size-->
+    <link href="Tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+    <!--Phone style sheet link for phone size-->
+    <link href="Phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+    <title>Matthew Stefoff's Portfolio</title>
+</head>
+<body>
+    <header>
+        <!--Creates A header and class to display a header image and nav links-->
+        <div class="headerimg">
+            <img src="avatarprofile.png" alt="HeaderImage">
+            <div class="headerlinks">
+                <nav>
+                    <p>
+                        <a href="HomePage.html"><strong>Home</strong></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="AboutMe.html"><strong>About me</strong></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="ProjectPage.html"><strong>Projects</strong></a>
+                    </p>
+                </nav>
+            </div>
+        </div>
+    </header>
+<!--Creates a wall to display all of the input questions for contact in-->
+<div class="WALL"></div>
+<h2> CONTACT ME!</h2>
+<form action="mailto:matthew.stefoff@ontariotechu.net?subject:WebsiteFeedback" method="post" enctype="text/plain" name="form">
+    <!--Creates a form with inputs for name, email, phone, and comments-->
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" size="48" placeholder="What is your name?" required>
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input id="email" type="email" size="48" placeholder="What is your email?" required>
+    </p>
+    <p>
+        <label for="phone">Phone Number:</label>
+        <input id="phone" type="tel" size="48" placeholder="What is your phone number?" required>
+    </p>
+    <p>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" cols="48" rows="8">
+        </textarea>
+        <!--Submit and reset buttons for the form-->
+    </p>
+    <p><input type="submit" value="SUBMIT"/>
+    </p>
+    <p><input type="reset" value="RESET"/>
+    </p>
+</form>
+ <!--Creates a class to organize the contact information as well as the copyright-->
+    <footer>
+        <div class="CONTACT">
+            <H2>Contact information:</H2>
+            <address>
+                <p>Contact me at <a href=mailto:Matthew.Stefoff@ontariotechu.net>Matthew.Stefoff@ontariotechu.net</a></p>
+            </address>
+        </div>
+        <div class="Copyright">
+            <p>&copy; by Matthew Stefoff</p>
+        </div>
+    </footer>
+</body>
+</html>

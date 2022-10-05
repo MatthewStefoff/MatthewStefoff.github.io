@@ -1,0 +1,82 @@
+@charset "UTF-8";
+body {
+color: #1c1c1c;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: medium;
+padding: 10px;
+margin: 0px;
+}
+h1,h2,h3{
+margin:auto;
+width: 200px;
+color: #289bfa
+}
+.headerimg{
+    width: 10%;
+    height:12%;
+    padding: 10px;
+    margin-left: 100px;
+}
+header{
+    height:15%;
+    width:100%;
+    background-color: #1c1c1c;
+}
+.headerlinks{
+    margin-left: 400px;
+    color:#289bfa
+}
+#left-column{
+    height: 70%;
+    width:50%;
+    background:#82B7DC;
+    background:-moz-linear-gradient(45deg, top, #289bfa 100%, #ffa4d9 0%);
+    background:-webkit-linear-gradient(45deg, top, #289bfa 100%, #ffa4d9 0%);
+}
+#body{
+    background:#82B7DC;
+    background:-moz-linear-gradient(top, #289bfa 100%, #82B7DC 0%);
+    background:-webkit-linear-gradient(top, #289bfa 100%, #82B7DC 0%);
+    background: linear-gradient(to bottom, #289bfa 100%, #82B7DC 0%);
+}   
+.Frame{
+    height:300px;
+    width:30%;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right: 20px;
+    margin-left:20px;
+    background-color: #f2f2f2; 
+    float: left;
+}
+video{
+    max-width: 90%;
+    max-height: 90%;
+}
+img{
+    max-height: 95%;
+    max-width: 95%;
+}
+.CONTACT{
+    margin:auto;
+    color:#289bfa;
+}
+footer{
+    width: 100%;
+    height: 15%;
+    background-color: #1c1c1c;
+}
+
+.Copyright{
+margin-left: 2px;
+margin-bottom: 2px;
+margin-top: auto;
+margin-right: auto;
+}
+#WALL{
+margin: 10% 10% 10% 10%;
+background-color: #808080;
+width: 80%;
+height:auto;
+}
+
