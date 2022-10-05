@@ -8,4 +8,4 @@ Header image is from:
 Currently do not have a working microphone so for the video it is just a random downloaded clip I have.
 Also Unfortunately did this project majorily on VSCODE on my desktop and uploaded it all after from my laptop. 
 My apologies for having no commits I read that at the end my fault. May be some after website work.
-Site is also deployed with git as heroku said no free trials and 000webhost had an internal error when I attempted to make an account.
+Site is unfortunately not deployed as heroku said no free trials and 000webhost had an internal error when I attempted to make an account.
