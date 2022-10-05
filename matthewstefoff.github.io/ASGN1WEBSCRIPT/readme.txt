@@ -1,3 +1,4 @@
+Student Number 100787998
 All code used was created by me, however some reference from the lectures and https://www.w3schools.com/ was used.
 the website was used as a tool to learn some extra specifics like the spaces between my links in the nav section.
 Color Palette is attached however With that I also added #ffa4d9.
